@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <configuration>
   <include resource="org/springframework/boot/logging/logback/base.xml"/>
-  <!-- trace < debug < info < warn < error -->
-  <root level="warn"/>
+  <!-- TRACE < DEBUG < INFO < WARN < ERROR -->
+  <root level="WARN"/>
 
-  <logger name="org.springframework" level="warn"/>
-  <logger name="freemarker" level="error"/>
+  <logger name="org.springframework" level="WARN"/>
+  <logger name="freemarker" level="ERROR"/>
+  <logger name="org.apache.commons.jexl2" level="ERROR"/>
 </configuration>
