@@ -7,4 +7,5 @@
   <logger name="org.springframework" level="WARN"/>
   <logger name="freemarker" level="ERROR"/>
   <logger name="org.apache.commons.jexl2" level="ERROR"/>
+  <logger name="tech.simter.template.util" level="DEBUG"/>
 </configuration>

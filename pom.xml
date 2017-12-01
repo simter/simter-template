@@ -42,16 +42,8 @@
       <artifactId>javax.inject</artifactId>
     </dependency>
     <dependency>
-      <groupId>javax.ws.rs</groupId>
-      <artifactId>javax.ws.rs-api</artifactId>
-    </dependency>
-    <dependency>
       <groupId>org.freemarker</groupId>
       <artifactId>freemarker</artifactId>
-    </dependency>
-    <dependency>
-      <groupId>org.jxls</groupId>
-      <artifactId>jxls-poi</artifactId>
     </dependency>
     <dependency>
       <groupId>org.springframework</groupId>
@@ -77,11 +69,6 @@
     <dependency>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot</artifactId>
-      <scope>test</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.slf4j</groupId>
-      <artifactId>slf4j-api</artifactId>
       <scope>test</scope>
     </dependency>
     <dependency>
